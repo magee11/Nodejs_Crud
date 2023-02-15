@@ -1,0 +1,16 @@
+{
+  "name": "task-curd",
+  "version": "1.0.0",
+  "description": "curd using epxress js and mongo db ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "author": "Magesh A",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  }
+}
