@@ -57,10 +57,9 @@ router.patch('/update/:id',async(req,res)=>{
   try{
     const id = req.params.id;
     const updatedata = req.body;
-    const options = {new:true}
 
     const employee = await Employee.findOneAndUpdate(
-        id,updatedata,options
+        id,updatedata
     )
     res.status(200).json({"message":employee})
 
