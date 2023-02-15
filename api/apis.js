@@ -53,7 +53,7 @@ router.get('/getone/:id',async(req,res)=>{
 
 
     // update employee by id
-router.patch('/update/:id',async(req,res)=>{
+router.put('/update/:id',async(req,res)=>{
   try{
     const id = req.params.id;
     const updatedata = req.body;
