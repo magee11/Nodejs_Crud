@@ -4,7 +4,7 @@ const employeeSchema = new mongoose.Schema(
     {
         name: {
             type: String,
-            required: [true, "Please enter a product name"]
+            required:true
         },
     email:{
         type:String,
